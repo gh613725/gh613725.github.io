@@ -45,7 +45,7 @@ body {
 /* -------------- 本区域样式请勿更改 -------------- */
 
 #content {
-	position: absolute;
+	position: fixed;
 	top: 5%;
 	left: 50%;
 	margin-left: -250px;
