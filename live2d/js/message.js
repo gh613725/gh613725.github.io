@@ -38,9 +38,9 @@ $('.waifu-tool .cl-home')
 
 $('.nv .cl-nv')
     .click(function() {
-        loadlive2d('live2d','model/./model.json');
+        loadlive2d('live2d','/model.json');
         showMessage('', 5000, true);
-        chara = 'model';
+        chara = '';
     });
 
 $('.waifu-tool .cl-liaotianduihua')
