@@ -11,7 +11,7 @@
 }
 
 #live2d {
-    position: relative;
+    position: absolute;
 }
 
 .message {
