@@ -63,7 +63,7 @@ $('.waifu-tool .cl-yincangbukejian')
 $('.waifu-tool .cl-paizhao')
     .click(function() {
         showMessage('照好了嘛，是不是很可爱喵？', 5000, true);
-        window.Live2D.captureName = 'Pio.png';
+        window.Live2D.captureName = 'photo.png';
         window.Live2D.captureFrame = true;
     });
 
