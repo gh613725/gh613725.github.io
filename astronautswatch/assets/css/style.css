@@ -1,7 +1,7 @@
 .jun-meter {
     position: relative;
-    width: 640px;
-    height: 640px;
+    width: 500px;
+    height: 500px;
     background-image: url("../img/ring.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -11,20 +11,20 @@
 
 .jun-time-rect {
     position: absolute;
-    width: 30px;
-    height: 80px;
-    left: 275px;
-    top: 180px;
+    width: 20px;
+    height: 60px;
+    left: 225px;
+    top: 150px;
     background-image: url("../img/rect.svg");
-    background-size: 40px 40px;
+
 }
 
 .jun-time-h-h {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 140px;
-    top: 170px;
+    width: 80px;
+    height: 80px;
+    left: 110px;
+    top: 140px;
     background-image: url("../img/8.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -32,10 +32,10 @@
 
 .jun-time-h-l {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 200px;
-    top: 170px;
+    width: 80px;
+    height: 80px;
+    left: 160px;
+    top: 140px;
     background-image: url("../img/8.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -43,10 +43,10 @@
 
 .jun-time-m-h {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 290px;
-    top: 170px;
+    width: 80px;
+    height: 80px;
+    left: 240px;
+    top: 140px;
     background-image: url("../img/8.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -54,10 +54,10 @@
 
 .jun-time-m-l {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 350px;
-    top: 170px;
+    width: 80px;
+    height: 80px;
+    left: 290px;
+    top: 140px;
     background-image: url("../img/8.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -65,10 +65,10 @@
 
 .jun-time-s-h {
     position: absolute;
-    width: 60px;
-    height: 60px;
-    left: 430px;
-    top: 208px;
+    width: 40px;
+    height: 40px;
+    left: 360px;
+    top: 175px;
     background-image: url("../img/8.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -76,10 +76,10 @@
 
 .jun-time-s-l {
     position: absolute;
-    width: 60px;
-    height: 60px;
-    left: 470px;
-    top: 208px;
+    width: 40px;
+    height: 40px;
+    left: 390px;
+    top: 175px;
     background-image: url("../img/8.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -89,8 +89,8 @@
     position: absolute;
     width: 120px;
     height: 30px;
-    left: 460px;
-    top: 310px;
+    left: 330px;
+    top: 250px;
     line-height: 30px;
     font-size: 20px;
     text-align: center;
@@ -100,8 +100,8 @@
     position: absolute;
     width: 120px;
     height: 30px;
-    left: 460px;
-    top: 345px;
+    left: 330px;
+    top: 280px;
     line-height: 30px;
     font-size: 20px;
     text-align: center;
@@ -109,10 +109,10 @@
 
 .jun-human{
     position: absolute;
-    width: 150px;
-    height: 150px;
-    left: 250px;
-    top: 280px;
+    width: 100px;
+    height: 100px;
+    left: 200px;
+    top: 230px;
     background-image: url("../img/human.gif");
     background-repeat: no-repeat;
     background-size: 100%;
