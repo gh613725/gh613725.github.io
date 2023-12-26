@@ -1,8 +1,3 @@
-/*
-此源码是基于 XgpNwb 的二次修改
-Github：https://github.com/NianBroken/Firework_Simulator
-Gitee：https://gitee.com/nianbroken/Firework_Simulator
-*/
 const MyMath = (function MyMathFactory(Math) {
 
 	const MyMath = {};

@@ -1,8 +1,3 @@
-/*
-此源码是基于 XgpNwb 的二次修改
-Github：https://github.com/NianBroken/Firework_Simulator
-Gitee：https://gitee.com/nianbroken/Firework_Simulator
-*/
 'use strict';
 console.clear();
 
@@ -137,7 +132,7 @@ const store = {
 					? '1.2' // Profile header default (doesn't need to be an int)
 					: '2', // Mobile default
 			autoLaunch: true,
-			finale: true,
+			finale: false,
 			skyLighting: SKY_LIGHT_NORMAL + '',
 			hideControls: IS_HEADER,
 			longExposure: false,
@@ -383,7 +378,7 @@ const appNodes = {
 	scaleFactorLabel: '.scaleFactor-label',
 	autoLaunch: '.auto-launch',
 	autoLaunchLabel: '.auto-launch-label',
-	finaleModeFormOption: '.form-option--finale-mode',
+
 	finaleMode: '.finale-mode',
 	finaleModeLabel: '.finale-mode-label',
 	hideControls: '.hide-controls',
@@ -429,7 +424,7 @@ function renderApp(state) {
 	appNodes.shellType.value = state.config.shell;
 	appNodes.shellSize.value = state.config.size;
 	appNodes.autoLaunch.checked = state.config.autoLaunch;
-	appNodes.finaleMode.checked = state.config.finale;
+	appNodes.finaleMode.value = state.config.finale;
 	appNodes.skyLighting.value = state.config.skyLighting;
 	appNodes.hideControls.checked = state.config.hideControls;
 	appNodes.fullscreen.checked = state.fullscreen;
@@ -470,7 +465,7 @@ function getConfigFromDOM() {
 		shell: appNodes.shellType.value,
 		size: appNodes.shellSize.value,
 		autoLaunch: appNodes.autoLaunch.checked,
-		finale: appNodes.finaleMode.checked,
+		finale: appNodes.finaleMode.value,
 		skyLighting: appNodes.skyLighting.value,
 		longExposure: appNodes.longExposure.checked,
 		hideControls: appNodes.hideControls.checked,
