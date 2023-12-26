@@ -40,7 +40,7 @@ $('.nv .cl-nv')
     .click(function() {
         loadlive2d('live2d','model/./model.json');
         showMessage('', 5000, true);
-        chara = 'kesshouban_v2';
+        chara = 'model';
     });
 
 $('.waifu-tool .cl-liaotianduihua')
