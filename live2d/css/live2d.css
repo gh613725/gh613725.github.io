@@ -32,8 +32,8 @@
     text-transform: uppercase;
     overflow: hidden;
     position: absolute;
-    animation-delay: 5s;
-    animation-duration: 50s;
+    animation-delay: unset;
+    animation-duration: unset;
     animation-iteration-count: infinite;
     animation-name: shake;
     animation-timing-function: ease-in-out;
