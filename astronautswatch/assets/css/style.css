@@ -1,5 +1,5 @@
 .jun-meter {
-    position: absolute;
+    position: relative;
     width: 350px;
     height: 350px;
     background-image: url("../img/ring.svg");
@@ -78,7 +78,7 @@
     position: absolute;
     width: 25px;
     height: 25px;
-    left: 200px;
+    left: 280px;
     top: 125px;
     background-image: url("../img/8.svg");
     background-repeat: no-repeat;
