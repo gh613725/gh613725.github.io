@@ -213,12 +213,29 @@
 	display: inline-block
 }
 
-.aplayer.aplayer-fixed .aplayer-icon-back,.aplayer.aplayer-fixed .aplayer-icon-forward,.aplayer.aplayer-fixed .aplayer-icon-menu,.aplayer.aplayer-fixed .aplayer-icon-play {
+.aplayer .aplayer-icon-back,.aplayer .aplayer-icon-forward,.aplayer .aplayer-icon-menu,.aplayer .aplayer-icon-play {
 	position: absolute;
 	bottom: 27px;
 	width: 20px;
 	height: 20px
 }
+
+.aplayer .aplayer-icon-back {
+	right: 75px
+}
+
+.aplayer .aplayer-icon-play {
+	right: 50px
+}
+
+.aplayer .aplayer-icon-forward {
+	right: 25px
+}
+
+.aplayer .aplayer-icon-menu {
+	right: 0
+}
+
 .aplayer .aplayer-icon-lrc-inactivity svg {
 	opacity: .4
 }
