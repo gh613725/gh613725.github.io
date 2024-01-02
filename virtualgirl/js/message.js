@@ -39,7 +39,7 @@ $('.waifu-tool .cl-home')
 $('.nv .cl-nv')
     .click(function() {
         loadlive2d('live2d','/model.json');
-        showMessage('', 5000, true);
+        showMessage('', 10000, true);
         chara = '';
     });
 
