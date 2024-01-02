@@ -15,7 +15,7 @@
 }
 
 .message {
-    opacity: 0;
+    opacity: 0.8;
     width: 150px;
     height: 50px;
     margin: auto;
@@ -45,6 +45,7 @@
     #landlord {
         display: block;
     }
+    #live2d {left:25%;}
 }
 
 .waifu-tool {
