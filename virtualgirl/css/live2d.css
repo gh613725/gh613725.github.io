@@ -21,7 +21,7 @@
     margin: auto;
     padding: 7px;
     top: -60px;
-    left: 0px;
+    left: 15px;
     text-align: center;
     border: 1px solid rgba(0,0,0,.1);
     border-radius: 12px;
@@ -46,7 +46,7 @@
         display: block;
     }
     #live2d {left:-15%;}
-    .message {left: -15%;}
+    .message {left: -10%;}
 }
 
 .waifu-tool {
