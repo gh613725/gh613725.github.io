@@ -38,7 +38,7 @@ $('.waifu-tool .cl-home')
 
 $('.nv .cl-nv')
     .click(function() {
-        loadlive2d('live2d','/model.json');
+        loadlive2d('live2d','model/hibiki/model.json');
         showMessage('', 5000, true);
         chara = '';
     });
