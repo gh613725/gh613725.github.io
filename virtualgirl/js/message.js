@@ -39,7 +39,7 @@ $('.waifu-tool .cl-home')
 $('.nv .cl-nv')
     .click(function() {
         loadlive2d('live2d','/model.json');
-        showMessage('', 10000, true);
+        showMessage('', 5000, true);
         chara = '';
     });
 
@@ -141,7 +141,7 @@ window.setInterval(showHitokoto,30000);
 
 function showHitokoto(){
     $.getJSON('https://v1.hitokoto.cn/',function(result){
-        showMessage(result.hitokoto, 10000);
+        showMessage(result.hitokoto, 8000);
     });
 }
 
