@@ -134,10 +134,10 @@ initTips();
             text = '欢迎来到<span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>';
         }
     }
-    showMessage(text, delay);
+    showMessage(text, 5000);
 })();
 
-window.setInterval(showHitokoto, 10000);
+window.setInterval(showHitokoto, delay);
 
 function showHitokoto(){
     $.getJSON('https://v1.hitokoto.cn/',function(result){
