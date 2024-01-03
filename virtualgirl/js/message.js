@@ -141,7 +141,7 @@ window.setInterval(showHitokoto,30000);
 
 function showHitokoto(){
     $.getJSON('https://v1.hitokoto.cn/',function(result){
-        showMessage(result.hitokoto, 10000);
+        showMessage('<span style="color:blue;">' + result.hitokoto + '</span>', 10000);
     });
 }
 
