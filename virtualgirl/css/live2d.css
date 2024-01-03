@@ -17,7 +17,7 @@
 .message {
     opacity: 0;
     width: 150px;
-    height: 50px;
+    height: 55px;
     margin: auto;
     padding: 7px;
     top: -60px;
@@ -47,12 +47,13 @@
     }
     #live2d {left:-15%;}
     .message {left: -10%;}
+    .waifu-tool {right: 30%;}
 }
 
 .waifu-tool {
     display: block;
-    color: #aaa;
-    bottom: 0px;
+    color: #fff;
+    top: 70%;
     right: 0px;
     font-size: 14px;
     position: absolute;
