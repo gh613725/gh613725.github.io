@@ -47,7 +47,7 @@
     }
     #live2d {left:-15%;}
     .message {left: -10%;}
-    .waifu-tool {right: 30%;}
+    .waifu-tool {display: block; right: 30%;}
 }
 
 .waifu-tool {
