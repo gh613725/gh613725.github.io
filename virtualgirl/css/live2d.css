@@ -47,14 +47,13 @@
     }
     #live2d {left:-15%;}
     .message {left: -10%;}
-    .waifu-tool {right: 80px;}
 }
 
 .waifu-tool {
     display: block;
     color: #fff;
     top: 70%;
-    right: 0px;
+    right: 30%;
     font-size: 14px;
     position: absolute;
 }
