@@ -134,7 +134,7 @@ initTips();
             text = '欢迎来到<span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>';
         }
     }
-    showMessage(text, 5000);
+    showMessage(text, delay);
 })();
 
 window.setInterval(showHitokoto, 10000);
