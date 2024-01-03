@@ -141,7 +141,7 @@ window.setInterval(showHitokoto,60000);
 
 function showHitokoto(){
     $.getJSON('https://v1.hitokoto.cn/',function(result){
-        showMessage(result.hitokoto, 5000);
+        showMessage(result.hitokoto, 8000);
     });
 }
 
