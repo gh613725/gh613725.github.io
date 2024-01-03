@@ -38,7 +38,7 @@ $('.waifu-tool .cl-home')
 
 $('.nv .cl-nv')
     .click(function() {
-        loadlive2d('live2d','model/hibiki/model.json');
+        loadlive2d('live2d','/model.json');
         showMessage('', 5000, true);
         chara = '';
     });
@@ -78,7 +78,7 @@ function initTips(){
                     var text = tips.text;
                     if(Array.isArray(tips.text)) text = tips.text[Math.floor(Math.random() * tips.text.length + 1)-1];
                     text = text.renderTip({text: $(this).text()});
-                    showMessage(text, 8000);
+                    showMessage(text, 5000);
                 });
             });
             $.each(result.click, function (index, tips){
@@ -86,7 +86,7 @@ function initTips(){
                     var text = tips.text;
                     if(Array.isArray(tips.text)) text = tips.text[Math.floor(Math.random() * tips.text.length + 1)-1];
                     text = text.renderTip({text: $(this).text()});
-                    showMessage(text, 8000);
+                    showMessage(text, 5000);
                 });
             });
         }
@@ -131,7 +131,7 @@ initTips();
                 text = '嗨~ 快来逗我玩吧！';
             }
         }else {
-            text = '初次见面，幸会';
+            text = '欢迎来到<span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>';
         }
     }
     showMessage(text, 12000);
@@ -141,7 +141,7 @@ window.setInterval(showHitokoto,30000);
 
 function showHitokoto(){
     $.getJSON('https://v1.hitokoto.cn/',function(result){
-        showMessage(result.hitokoto, 8000);
+        showMessage(result.hitokoto, 10000);
     });
 }
 
