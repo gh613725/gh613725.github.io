@@ -140,7 +140,7 @@ initTips();
 window.setInterval(showHitokoto, delay);
 
 function showHitokoto(){
-    $.getJSON('https://v1.hitokoto.cn/',function(result){
+    $.getJSON('https://v1.hitokoto.cn/?c=f&encode=text',function(result){
         showMessage(result.hitokoto, 8000);
     });
 }
