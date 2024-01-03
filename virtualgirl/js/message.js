@@ -131,7 +131,7 @@ initTips();
                 text = '嗨~ 快来逗我玩吧！';
             }
         }else {
-            text = '欢迎来到<span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>';
+            text = '初次见面，幸会~~';
         }
     }
     showMessage(text, 12000);
