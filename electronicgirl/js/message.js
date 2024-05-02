@@ -56,8 +56,8 @@ $('.waifu-tool .cl-nvzhuangqunzi-1')
 $('.waifu-tool .cl-yincangbukejian')
     .click(function() {
         sessionStorage.setItem('waifu-dsiplay', 'none');
-        showMessage('愿你有一天能与重要的人重逢', 1300, true);
-        window.setTimeout(function() { $('.waifu').hide(); }, 1300);
+        showMessage('愿你有一天能与重要的人重逢', 1000, true);
+        window.setTimeout(function() { $('.waifu').hide(); }, 1000);
     });
 
 $('.waifu-tool .cl-paizhao')
@@ -141,7 +141,7 @@ window.setInterval(showHitokoto, delay);
 
 function showHitokoto(){
     $.getJSON('https://v1.hitokoto.cn/',function(result){
-        showMessage('<span style="color:black;">' + result.hitokoto + '</span>', 5000);
+        showMessage('<span style="color:black;">' + result.hitokoto + '</span>', 10000);
     });
 }
 
@@ -180,9 +180,9 @@ function loadRandModel() {
         success: function(result) {
             
             if (result.textures.length == 1 || chara == '22' || chara == '33') {
-                showMessage('人家还没有其他衣服呢', 3000, true);
+                showMessage('人家还没有其他衣服呢', 5000, true);
             } else {
-                showMessage('人家的新衣服好看喵', 3000, true);
+                showMessage('人家的新衣服好看喵', 5000, true);
                 var ram =Math.floor(Math.random()*result.textures.length)
                 console.log(ram)
                 loadlive2d('live2d',`live2d/model/${chara}/model${ram.toString()}.json`);
