@@ -56,7 +56,7 @@ $('.waifu-tool .cl-nvzhuangqunzi-1')
 $('.waifu-tool .cl-yincangbukejian')
     .click(function() {
         sessionStorage.setItem('waifu-dsiplay', 'none');
-        showMessage('愿你有一天能与重要的人重逢', 1000, true);
+        showMessage('愿你有一天能与重要的人重逢', 5000, true);
         window.setTimeout(function() { $('.waifu').hide(); }, 1000);
     });
 
