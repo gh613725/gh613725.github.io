@@ -157,7 +157,7 @@ function showMessage(text, timeout){
 function hideMessage(timeout){
     $('.message').stop().css('opacity',1);
     if (timeout === null) timeout = 5000;
-    $('.message').delay(timeout).fadeTo(200, 0);
+    $('.message').delay(timeout).fadeTo(100, 0);
 }
 
 function initLive2d (){
@@ -165,9 +165,9 @@ function initLive2d (){
         $('#landlord').css('display', 'none')
     })
     $('#landlord').hover(() => {
-        $('.hide-button').fadeIn(600)
+        $('.hide-button').fadeIn(100)
     }, () => {
-        $('.hide-button').fadeOut(600)
+        $('.hide-button').fadeOut(100)
     })
 }
 initLive2d ();
